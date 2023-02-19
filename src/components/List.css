@@ -1,0 +1,95 @@
+.Content__Lists {
+    margin-top: 5%;
+}
+
+.Content__Lists-ShadowLine {
+    height: 2px;
+    background: #151517;
+    opacity: 0.2;
+}
+
+.Content__Lists-ToDo {
+    width: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Content__Lists-ToDo_item {
+    margin-right: 12%;
+    border-style: none;
+    background-color: white;
+    justify-content: flex-start;
+}
+
+.Content__Lists-ToDoDrop {
+    position: absolute;
+    margin-top: 5%;
+    border-radius: 2vmin;
+    border-style: none;
+    background: #E4E6E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    width: 10%;
+    padding-left: 1%;
+    padding-right: 1%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+/* =============================================== */
+.Content__Lists-Done {
+    width: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #959595;
+    text-decoration: line-through;
+}
+
+.Content__Lists-Done_item{
+    margin-right: 8%;
+    border-style: none;
+    background-color: white;
+}
+
+.Content__Lists-Trash {
+    width: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #EE4B2B;
+    text-decoration: line-through;
+}
+
+.Content__Lists-Trash_item {
+    margin-right: 8%;
+    border-style: none;
+    background-color: white;
+}
+
+.Content__Lists-TrashDrop {
+    position: absolute;
+    margin-top: 8%;
+    border-radius: 2vmin;
+    border-style: none;
+    background: #E4E6E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Content__Lists-TrashDrop-Buttons {
+    width: 82%;
+    border-style: none;
+    background: #E4E6E7;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+    padding-right: 1%; 
+}

@@ -1,0 +1,156 @@
+.Content {
+    margin-top: 7%;
+    display: flex;
+    flex-wrap: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Content-Nav {
+    width: 30%;
+    display: flex;
+    flex-wrap: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ====================== Nav Buttons ============================== */
+
+.Content-Nav__To-Do {
+    width: 30%;
+    background: linear-gradient(0deg, rgba(8, 30, 52, 0.05), rgba(8, 30, 52, 0.05)), #F0F0F0;
+    border-radius: 20%/50%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.Content-Nav__To-Do-active {
+    width: 30%;
+    border-radius: 20%/50%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    background: rgba(8, 30, 52, 0.42);
+    color: white
+}
+
+.Content-Nav__Done {
+    width: 30%;
+    background: linear-gradient(0deg, rgba(8, 30, 52, 0.05), rgba(8, 30, 52, 0.05)), #F0F0F0;
+    border-radius: 20%/50%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.Content-Nav__Done-active {
+    width: 30%;
+    border-radius: 20%/50%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    background: rgba(8, 30, 52, 0.42);
+    color: white
+}
+
+.Content-Nav__Trash {
+    width: 30%;
+    background: linear-gradient(0deg, rgba(8, 30, 52, 0.05), rgba(8, 30, 52, 0.05)), #F0F0F0;
+    border-radius: 20%/50%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.Content-Nav__Trash-active {
+    width: 30%;
+    border-radius: 20%/50%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    background: rgba(8, 30, 52, 0.42);
+    color: white
+}
+
+/* ============================================================ */
+
+.Content-Button {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Content-Button__Inputs {
+    width: 15%;
+    position: absolute;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    background: #E4E6E7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 2vmin;
+}
+
+.Content-Button__Input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    margin: auto;
+}
+
+.Content-Button__Input input {
+    height: 11vmin;
+    border-radius: 1vmin;
+    border-style: none;
+}
+
+.Content-Button__Input input::placeholder {
+    position: absolute;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.Content-Button__Input button {
+    width: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 3vmin;
+    border-style: none;
+    background: linear-gradient(0deg, #081E34, #081E34), #F0F0F0;
+    color: #FFFFFF;
+}
+
